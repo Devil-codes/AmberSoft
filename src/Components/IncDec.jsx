@@ -30,7 +30,13 @@ class IncDec extends React.Component {
             Increment
           </button>
         </span>
-        <span className="badge badge-warning">{this.state.count}</span>
+        <span
+          className={
+            this.state.count <= 0 ? "badge badge-danger" : "badge badge-warning"
+          }
+        >
+          {this.state.count}
+        </span>
         <span>
           <button
             className="btn btn-primary m-3"

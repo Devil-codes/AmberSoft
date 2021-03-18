@@ -30,7 +30,7 @@ class TempConverter extends React.Component {
           onChange={this.changeTemp}
         />
         <select className="ml-5" onChange={this.changeToWhat}>
-          <option></option>
+          <option>select</option>
           <option value="cf">Celsius to Fahrenheit</option>
           <option value="fc">Fahrenheit to Celsius</option>
         </select>
