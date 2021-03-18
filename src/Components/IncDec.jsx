@@ -45,6 +45,18 @@ class IncDec extends React.Component {
             Decrement
           </button>
         </span>
+        <h4>
+          Items Present :{" "}
+          <span
+            className={
+              this.state.count <= 0
+                ? "badge badge-danger"
+                : "badge badge-warning"
+            }
+          >
+            {this.state.count}
+          </span>
+        </h4>
       </>
     );
   }
