@@ -11,6 +11,7 @@ import FormComp from "./Components/FormComp";
 import FormSelectComp from "./Components/FormSelectComp";
 import CurrencyConverter from "./Components/CurrencyConverter";
 import TempConverter from "./Components/TempConverter";
+import PassArgument from "./Components/PassArgument";
 
 export default function App() {
   return (
@@ -29,6 +30,8 @@ export default function App() {
       <FormSelectComp />
       <CurrencyConverter />
       <TempConverter />
+      <br />
+      <PassArgument />
     </div>
   );
 }
