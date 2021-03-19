@@ -6,3 +6,14 @@ body {
   background-color: grey;
   color: red;
 }
+
+.inside-container {
+  font-family: sans-serif;
+  color: black;
+  background: skyblue;
+  margin: auto;
+  height: auto;
+  margin-top: 10em;
+  border-radius: 3px;
+  width: 400px;
+}

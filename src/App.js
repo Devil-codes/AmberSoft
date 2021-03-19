@@ -12,6 +12,7 @@ import FormSelectComp from "./Components/FormSelectComp";
 import CurrencyConverter from "./Components/CurrencyConverter";
 import TempConverter from "./Components/TempConverter";
 import PassArgument from "./Components/PassArgument";
+import LoginPage from "./Components/LoginPage";
 
 export default function App() {
   return (
@@ -32,6 +33,7 @@ export default function App() {
       <TempConverter />
       <br />
       <PassArgument />
+      <LoginPage />
     </div>
   );
 }
