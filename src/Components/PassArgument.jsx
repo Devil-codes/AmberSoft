@@ -14,13 +14,20 @@ class PassArgument extends React.Component {
     return (
       <>
         <button
+          className="btn btn-primary m-3"
           onClick={() => {
             this.incrementCount(temp);
           }}
         >
           Increment
         </button>
-        <span>{this.state.count}</span>
+        <span
+          className={
+            this.state.count === 0 ? "badge badge-danger" : "badge-warning"
+          }
+        >
+          {this.state.count === 0 ? "---" : this.state.count}
+        </span>
       </>
     );
   }
