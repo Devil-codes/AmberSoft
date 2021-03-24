@@ -3,7 +3,7 @@ import React from "react";
 class IncDec extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { count: 0 };
+    this.state = { count: props.value ?? 0 };
     this.incrementMethod = this.incrementMethod.bind(this);
     this.decrementMethod = this.decrementMethod.bind(this);
   }

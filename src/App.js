@@ -13,6 +13,7 @@ import CurrencyConverter from "./Components/CurrencyConverter";
 import TempConverter from "./Components/TempConverter";
 import PassArgument from "./Components/PassArgument";
 import LoginPage from "./Components/LoginPage";
+import LiftingState from "./Components/LiftingState";
 
 export default function App() {
   return (
@@ -34,6 +35,7 @@ export default function App() {
       <br />
       <PassArgument />
       <LoginPage />
+      <LiftingState />
     </div>
   );
 }
